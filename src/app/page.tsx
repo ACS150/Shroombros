@@ -1,6 +1,6 @@
-import TheShroomBroV5 from '../components/TheShroomBroV5';
+import ShroomBroLanding from '../components/ShroomBroLanding';
 
 export default function Home() {
-  return <TheShroomBroV5 />;
+  return <ShroomBroLanding />;
 }
 
