@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Shroombro Next",
-  description: "Next.js wrapper around legacy HTML",
+  title: "TheShroomBro.co",
+  description: "",
 };
 
 export default function RootLayout({
