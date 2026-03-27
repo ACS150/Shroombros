@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --beige: #f5ecd7;
+  --beige-dark: #e8d5ba;
+  --beige-deeper: #d4b896;
+  --beige-light: #faf6ee;
+  --white: #ffffff;
+  --black: #1a1008;
+  --black-soft: #2c1a0e;
+  --brown: #5c3a1e;
+  --brown-mid: #8b5e3c;
+  --brown-light: #c49a6c;
+  --orange: #d4621a;
+  --orange-light: #e8854a;
+  --orange-pale: #fde8d8;
+  --pink: #d4788a;
+  --pink-dark: #b5526a;
+  --pink-light: #f5d0d8;
+  --yellow: #e8b830;
+  --yellow-dark: #c49a10;
+  --yellow-light: #fbe9a0;
+  --blue: #7bafd4;
+  --blue-dark: #3d6e96;
+  --blue-light: #d0e8f5;
+  --grey: #9aa5b0;
+  --grey-dark: #5c6b78;
+  --grey-light: #e8edf2;
+  --text-dark: #1a1008;
+  --text-mid: #5c3a1e;
+  --text-light: #8b7050;
+  color-scheme: light;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--beige-light);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(36px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
